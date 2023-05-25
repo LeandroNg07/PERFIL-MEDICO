@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+     background-image: url(/images/background-principal.png);
+    z-index: -1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* HEADER */
+header{
+    background-color: white;
+    color: #3b7197;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+    flex-flow: column nowrap;
+    
+    
+    
+}
+.navHeader{ /*botoes da header */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+} 
+.navHeader:hover, .selected{/*Quando o cursor passar por cima da nav a cor do link ficará preta e o tamanho da letra aumentada*/
+    color: black;
+    font-weight: 900;
+}
+button:hover {/*dar um zoom assim que o cursor passar do cima do botão (ENTRE AQUI)*/
+    transform: scale(1.1);
+    transition: all 0.5s;
+} 
+.divinfo{
+    
+    background-color: #b7eafd;
+    height: 20px;
+    margin-top: 0px;
+    color: #3b7197;
+    
+}
+.pend{
+    text-align: center;
+}
+.whatsapp{
+    width: 15px;
+    height: 15px;
+}
+.divnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #3b7197;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;                           
+}
+nav :hover{
+    color:#000 ;
+}
+
+.logo{
+    width: 80px;
+    
+}
+a{
+    text-decoration: none;
+    color: #3b7197;;
+}
+button{
+    background: #a1e1fa;
+	color: white;
+	border-radius: 30px;
+	border:1px solid #000;
+	height: 50px;
+	width: 120px;
+	font: bold 15px arial,sans-serif;
+	
+}
+.entreaq:hover{
+    color: #000;
+}
+.marq{
+    display: flex;
+    justify-content: center;
+}
+.msc{
+    border: 1px solid #000;
+    border-radius: 20px;
+
+    position: relative;
+    bottom: 100px;
+    
+    
+
+    width: 220px;
+    height: 40px;
+    background-color: #CAE5FF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 100px;
+
+}
+
+.msc:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+    
+}
+.marquehover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+    
+}
+.marque{
+    margin: 0px;
+}
+/* HEADER */
+
+
+/*MAIN */ 
+.teste {
+    padding: 500px;
+    padding-top: 200px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20;
+}
+.user{
+    background-color: white;
+    border: 1px solid black;
+    width: 90%;
+    height: 200px;
+    border-radius: 40px;
+
+    display: flex;
+
+    margin-bottom: 20px;
+    
+    
+}
+.info{
+    width: 60%;
+    border:solid 1px black;
+}
+h3{
+    font-size: smaller 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.foto{
+    width: 40%;
+    border: solid 1px black;
+}
+.fotomedic{
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.consultas{
+    background-color: white;
+    border: 1px solid black;
+    width: 90%;
+    height: 150px;
+    border-radius: 40px;
+
+    display: flex;
+
+}
+.infopaciente{
+    margin-left: 30px;
+    width: 50%;
+
+    font-size: smaller 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.consu{
+    margin-bottom: 4px;
+}
+.botaoConcluida{
+    width: 50%;
+    border: solid 1px black;
+}
+
+/*MAIN */
+
+
+
+
+
